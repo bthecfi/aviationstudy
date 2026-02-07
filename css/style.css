@@ -195,3 +195,11 @@ h2 {
   margin-top: 1.5rem;
   cursor: pointer;
 }
+.disclaimer {
+  max-width: 900px;
+  margin: 3rem auto;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 0 1rem;
+}
