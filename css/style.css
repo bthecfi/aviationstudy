@@ -144,3 +144,54 @@ h2 {
     flex-direction: column;
   }
 }
+/* FEEDBACK SECTION */
+.feedback {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  background: #0b1c2d;
+}
+
+.feedback-card {
+  background: #ffffff;
+  color: #0b1c2d;
+  max-width: 600px;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.feedback-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.feedback-card p {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.feedback-card label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feedback-card input,
+.feedback-card textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.feedback-card textarea {
+  resize: vertical;
+}
+
+.feedback-card button {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
